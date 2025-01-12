@@ -42,3 +42,6 @@ sessionStorage.setItem('user', JSON.stringify(sessionObj));
 
 // TODO: Get an object from sessionStorage
 const storedSessionObj = JSON.parse(sessionStorage.getItem('user'));
+
+// TODO: Get an object from sessionStorage
+//const storedSessionObj = JSON.parse(sessionStorage.getItem('user'));

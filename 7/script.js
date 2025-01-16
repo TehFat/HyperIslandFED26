@@ -7,7 +7,6 @@
  *   reverseString("world") should return "dlrow"
  *   reverseString("12345") should return "54321"
  */
-<<<<<<< HEAD
 function reverseString(string) {
   let reversedString = "";
 
@@ -17,11 +16,8 @@ function reverseString(string) {
   return reversedString;
 
 }
-console.log(reverseString("hello"));
-
-=======
+console.log(reverseString("hello"))
 function reverseString() {}
->>>>>>> origin/a7
 
 /**
  * TODO write a JavaScript function that takes a number and returns it in the reverse order.
@@ -31,15 +27,13 @@ function reverseString() {}
  *   reverseNumber(98765) should return 56789
  *   reverseNumber(101010) should return 10101
  */
-
-<<<<<<< HEAD
 function reverseNumber(num) {
   return num.toString().split("").reverse().join("");
 }
 reverseNumber(54321);
-=======
+
 function reverseNumber() {}
->>>>>>> origin/a7
+
 
 /**
  * TODO destruct the following object to get name and age.
@@ -52,21 +46,19 @@ const person = {
     job: "Developer",
   },
 };
-<<<<<<< HEAD
-const { name, info: { age } } = person;
-=======
 
->>>>>>> origin/a7
+const { name, info: { age } } = person;
+
+
 /**
  * TODO destruct the following array the first and second element, and the remaining elements in a third variable.
  */
 
 const thisArray = ["apple", "banana", "cherry", "dates", "elderberry", "fig"];
-<<<<<<< HEAD
-const [first, second, ...rest] = thisArray;
-=======
 
->>>>>>> origin/a7
+const [first, second, ...rest] = thisArray;
+
+
 /**
  * !!!!OPTIONAL!!!!
  * TODO Write a JavaScript function that checks if a string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads * the same forward and backward. For example, "madam" is a palindrome.
@@ -79,13 +71,13 @@ const [first, second, ...rest] = thisArray;
  *    isPalindrome("coding") should return false
  */
 
-<<<<<<< HEAD
+
 function isPalindrome(string) {
    // Remove spaces and convert the string to lowercase for normalization
   const cleanedString = string.replace(/\s+/g, "").toLowerCase();
   // Check if the cleaned string is equal to its reversed version
   return cleanedString === reverseString(cleanedString);
 }
-=======
+
 function isPalindrome() {}
->>>>>>> origin/a7
+

@@ -1,7 +1,7 @@
-import EffectsComponent from "./Components/Effect/EffectsComponent";
+// import EffectsComponent from "./Components/Effect/EffectsComponent";
 import "./App.css";
-import MyStateComponent from "./Components/MyStateComponent/MyStateComponent";
-import PropsComponent from "./Components/MyStateComponent/PropsComponent";
+// import MyStateComponent from "./Components/MyStateComponent/MyStateComponent";
+// import PropsComponent from "./Components/MyStateComponent/PropsComponent";
 
 function App() {
   const person = {
@@ -23,7 +23,8 @@ function App() {
       {/* TODO create a child component in proper jsx, the component takes the person object as props and render the data */}
       {/* <PropsComponent person={person} /> */}
       {/* <MyStateComponent /> */}
-      <EffectsComponent />
+      <div>app component</div>
+      {/* <EffectsComponent /> */}
     </div>
   );
 }
